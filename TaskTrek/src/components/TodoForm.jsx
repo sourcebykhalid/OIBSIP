@@ -34,7 +34,7 @@ const TodoForm = ({ addTodo }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col mx-auto text-black bg-blue-200 px-4 py-7 mt-14 rounded-md shadow-md shadow-black"
+      className="flex flex-col mx-auto text-black bg-gradient-to-tr from-black via-orange-200 to-lime-300 px-4 py-7 mt-14 rounded-md shadow-md shadow-black"
     >
       <span className="sm:text-4xl text-2xl mx-auto font-extrabold bg-gradient-to-r from-emerald-500 via-pink-500 to-black text-transparent bg-clip-text mb-2">
         Task Trek
@@ -55,7 +55,7 @@ const TodoForm = ({ addTodo }) => {
       <br />
       <button
         type="submit"
-        className="bg-blue-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-blue-600"
+        className="bg-lime-500 text-white font-semibold px-4 py-2 rounded-md hover:bg-black"
       >
         Add Todo
       </button>
